@@ -1,0 +1,67 @@
+{
+    "orders": [
+        {
+            "title" : "Extravaganza pizza",
+            "price" : "5200",
+            "image": "assets/images/1.jpg"
+        },
+        {
+            "title" : "Chicken wings",
+            "price" : "2500",
+            "image": "assets/images/2.jpg"
+        },
+        {
+            "title" : "Beef shawarma",
+            "price" : "2500",
+            "image": "assets/images/3.jpg"
+        },
+        {
+            "title" : "Chicken bali pizza",
+            "price" : "5200",
+            "image": "assets/images/4.jpg"
+        },
+        {
+            "title" : "Cheesy breadsticks",
+            "price" : "3000",
+            "image": "assets/images/5.jpg"
+        },
+        {
+            "title" : "French fries",
+            "price" : "2000",
+            "image": "assets/images/6.jpg"
+        },
+        {
+            "title" : "Chicken nuggets",
+            "price" : "2500",
+            "image": "assets/images/7.jpg"
+        },
+        {
+            "title" : "Pepperoni pizza",
+            "price" : "5200",
+            "image": "assets/images/8.jpg"
+        },
+        {
+            "title" : "Veggies supreme pizza",
+            "price" : "5200",
+            "image": "assets/images/9.jpg"
+        },
+        {
+            "title" : "Chocolate icecream",
+            "price" : "2000",
+            "image": "assets/images/10.jpg"
+
+        }
+        ,
+        {
+            "title":"Coldstone chocolate",
+            "price":"3000",
+            "image":"assets/images/11.jpg"
+        },
+        {
+            "title": "Coca-cola (33cl)",
+            "price": "500",
+            "image": "assets/images/12.jpg"
+        }
+
+    ]
+}
