@@ -22,7 +22,7 @@ function getNotionfication()
     $connect =  $GLOBALS['connect'];
     $notifications = [];
 
-    $result = mysqli_query($connect, "SELECT * FROM notifications");
+    $result = mysqli_query($connect, "SELECT * FROM notification");
 
     while ($row = mysqli_fetch_assoc($result)) {
         $notification = new Notification($row['title'], $row['content'], $row['image']);

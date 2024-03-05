@@ -8,17 +8,22 @@ class Order
     public $price;
     public $image;
     public $type;
+    public $weight;
+    public $description;
 
 
-    function __construct($id, $title, $price, $image, $type)
+    function __construct($id, $title, $price, $image, $type, $weight, $description)
     {
         $this->id = $id;
         $this->title = $title;
         $this->price = $price;
         $this->image = $image;
         $this->type = $type;
+        $this->weight = $weight;
+        $this->description = $description;
     }
 }
+
 
 
 function orders($type)
@@ -32,7 +37,7 @@ function orders($type)
 
     while ($row = mysqli_fetch_assoc($result)) {
 
-        $order = new Order($row['id'], $row['title'], $row['price'], $row['image'], $row['type']);
+        $order = new Order($row['id'], $row['title'], $row['price'], $row['image'], $row['type'], $row['weight'], $row['description']);
 
         array_push($orders, $order);
     }
